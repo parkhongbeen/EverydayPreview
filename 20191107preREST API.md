@@ -291,3 +291,26 @@ xhr.onreadystatechange = function (e) {
 };
 ```
 
+
+
+
+
+
+
+ ![HTTP request response message](https://poiemaweb.com/img/HTTP_request+response_message.gif) 
+
+readXMLHttpRequest.readyState의 값은 아래와 같다.
+
+| Value | State            | Description                                           |
+| :---: | :--------------- | :---------------------------------------------------- |
+|   0   | UNSENT           | XMLHttpRequest.open() 메소드 호출 이전                |
+|   1   | OPENED           | XMLHttpRequest.open() 메소드 호출 완료                |
+|   2   | HEADERS_RECEIVED | XMLHttpRequest.send() 메소드 호출 완료                |
+|   3   | LOADING          | 서버 응답 중(XMLHttpRequest.responseText 미완성 상태) |
+|   4   | DONE             | 서버 응답 완료                                        |
+
+
+
+
+
+**CORS** / 면접단골질문이다...
